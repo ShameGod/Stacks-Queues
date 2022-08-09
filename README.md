@@ -4,8 +4,8 @@ source : https://www.youtube.com/watch?v=wjI1WNcIntg
 
 
 Stacks and queues are similar data structures, they are both linear. 
-Stacks are a FIFO : First In First Out
-Queues are a LIFO : Last In First Out
+Queues are a FIFO : First In First Out
+Stacks are a LIFO : Last In First Out
 
 To declare a queue : 
 
