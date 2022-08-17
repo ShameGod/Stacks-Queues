@@ -40,4 +40,7 @@ By completing leetcode exercises I will be able to :
 * Solve basic stack-related problems;
 * Understand how system stack helps you when you solve problems using DFS and other recursion algorithms;
 
+### Exercise 1 : design a circular queue 
+In this exercise I had to design a circular queue using a fixed sized array. https://github.com/ShameGod/Stacks-Queues/blob/main/designCircularQueue.java
 
+I didn't succeed when trying, because I had way too many ifs. The solution was to store two sizes : the total size of the array and the current size of the queue. 
