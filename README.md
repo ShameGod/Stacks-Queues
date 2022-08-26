@@ -90,4 +90,24 @@ https://github.com/ShameGod/Stacks-Queues/blob/main/islandCount.java
 I didn't use queues with this exercise I don't how to 
 What I found great with this exercise is the way we avoid using a new data structure (hashmaps) for visited islands just by replacing the visited places with 0.
 
+### Exercise 3 : open the lock : 
 
+public int openLock(String[] deadEnds, String target){
+	String start = "0000";
+	Queue queue = new LinkedList<String>;
+	int changesCount =0;
+	queue.add(start);
+	while(!queue.isEmpty){
+		if(queue.contains(target)){return changesCount;}
+		foreach element in queue {
+			if(!deadEnds.contains(element)){
+				get all the possible digit changes
+				add  all these possibilities to the queue;
+			}
+			dequeue element
+		}
+		changesCount = changesCount+1;
+	}
+
+	return -1;
+}
