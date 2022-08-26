@@ -85,4 +85,9 @@ In this exercise I had to design a circular queue using a fixed sized array. htt
 
 I didn't succeed when trying, because I had way too many ifs. The solution was to store two sizes : the total size of the array and the current size of the queue. 
 
-### 
+### Exercise 2 : island count with DFS
+https://github.com/ShameGod/Stacks-Queues/blob/main/islandCount.java
+I didn't use queues with this exercise I don't how to 
+What I found great with this exercise is the way we avoid using a new data structure (hashmaps) for visited islands just by replacing the visited places with 0.
+
+
