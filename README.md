@@ -90,7 +90,11 @@ https://github.com/ShameGod/Stacks-Queues/blob/main/islandCount.java
 I didn't use queues with this exercise I don't how to 
 What I found great with this exercise is the way we avoid using a new data structure (hashmaps) for visited islands just by replacing the visited places with 0.
 
-### Exercise 3 : open the lock : 
+### Exercise 3 perfect square : https://leetcode.com/explore/learn/card/queue-stack/231/practical-application-queue/1371/
+
+availabler in the repo. The solution is to use a BFS.
+
+### Exercise 4 : open the lock : 
 
 public int openLock(String[] deadEnds, String target){
 	String start = "0000";
@@ -111,3 +115,5 @@ public int openLock(String[] deadEnds, String target){
 
 	return -1;
 }
+
+
