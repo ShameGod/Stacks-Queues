@@ -66,9 +66,31 @@ int BFS(Node root, Node target) {
 ```
 
 
+### Stacks use : 
+Stacks can be used for usual problems such as : https://leetcode.com/explore/learn/card/queue-stack/230/usage-stack/1361/ 
+They can also be used to do DFS. The famous recursive algoritm to do DFS is implicitly using a stack called *the system call stack* the OS stacks the sub routines to execute. 
 
-
-
+DFS can be used with an explicite stack in order to avoid stack overflow errors when the depth is too long.
+For example : https://leetcode.com/explore/learn/card/queue-stack/232/practical-application-stack/1383/
+```
+public class Solution {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode curr = root;
+        while (curr != null || !stack.isEmpty()) {
+            while (curr != null) {
+                stack.push(curr);
+                curr = curr.left;
+            }
+            curr = stack.pop();
+            res.add(curr.val);
+            curr = curr.right;
+        }
+        return res;
+    }
+}
+```
 
 
 ## Leetcode exercises :
